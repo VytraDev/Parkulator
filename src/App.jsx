@@ -69,7 +69,7 @@ export default function App() {
             <div className="tariff-row"><span>First 15 minutes</span><strong>FREE</strong></div>
             <div className="tariff-row"><span>First hour</span><strong>3.00</strong></div>
             <div className="tariff-row"><span>Each extra hour or part</span><strong>+ 2.00</strong></div>
-            <div className="tariff-row"><span>Daily maximum</span><strong>15.00</strong></div>
+            <div className="tariff-row"><span>Daily maximum</span><strong>20.00</strong></div>
           </div>
           <p className="fine-print">Same-day tickets only. Check the times before collecting payment.</p>
         </section>
