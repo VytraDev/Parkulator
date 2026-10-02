@@ -17,3 +17,9 @@ test('rejects an exit time before the entry time', () => {
     fireEvent.click(screen.getByText('Calculate fee'))
     expect(screen.getByText('Exit time must be after entry time')).toBeTruthy()
 })
+
+test('asks for both times before calculating', () => {
+  render(<FeeCalculator />)
+  fireEvent.click(screen.getByText('Calculate fee'))
+  expect(screen.getByText('Enter both times')).toBeTruthy()
+})
